@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+.orange-square{
+    background-color: #FEA733;
+}
+.titleOfLobby {
+    font-size: 200%;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+.numberOfPeopleJoined{
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 200%;
+}
+.twodays{
+    font-weight: 500;
+    font-size: 130%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 2%;
+}
+.status{
+    font-weight: 500;
+    font-size: 180%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5%;
+}
+.whole
+{
+    background-color: #FCF5EF;
+    
+}

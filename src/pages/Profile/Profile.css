@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+.name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 200%;
+    padding-top: 5%;
+}
+p.location {
+    font-size: 170%;
+    display: flex;
+    padding-top: 3%;
+    align-items: center;
+    padding-top: 3%;
+    font-weight: 300;
+    justify-content: center;
+}
+p.settings {
+    padding-left: 5%;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: 150%;
+}
+.desc {
+    padding-left: 5%;
+    padding-top: 5%;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 150%;
+    width: 90%;
+}
+.strikes{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-size: 150%;
+    width: 90%;
+    font-weight: 500;
+}

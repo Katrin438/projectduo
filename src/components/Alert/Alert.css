@@ -1,0 +1,38 @@
+.alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.alert_header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alert_header_close {
+    padding: 20px;
+    background-color: inherit;
+    border: 0;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc_terms{
+    padding-left: 10%;
+    font-size: 200%;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+p.desc_terms.a {
+    padding-top: 20%;
+    font-weight: 500;
+}

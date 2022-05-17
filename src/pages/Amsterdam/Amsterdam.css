@@ -1,0 +1,38 @@
+.white-square{
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 5%;
+    font-size: 180%;
+}
+.join{
+    display: flex;
+}
+
+.white-square p {
+    padding-top: 8%;
+}
+.grey{
+    color: grey;
+    padding-left: 3%;
+}
+button.joins {
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 18px;
+    padding: 4%;
+    width: 30%;
+    border: none;
+    border-radius: 5%;
+    background-color: #5893D8;
+    font-size: 85%;
+    color: white;
+}
+.ams{
+    width: 100%;
+    height: auto;
+}
+
+.amsterdam-wrapper ~ .MuiPaper-root {
+    display: none;
+}

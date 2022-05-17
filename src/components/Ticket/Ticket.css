@@ -1,0 +1,23 @@
+.ticket_box{
+    background-color: white;
+    margin-top: 30%!important;
+    border-radius: 10%;
+    margin: 5%;
+}
+.payment_ready{
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+}
+.download_ticket{
+    padding-top: 10%;
+    color: grey;
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}

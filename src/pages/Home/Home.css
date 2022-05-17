@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&display=swap');
+
+.s{
+    background-color: #F2F2F2 !important;
+    border: none!important;
+    border-radius: 10px!important;
+    margin: 20px!important;
+    font-size: 1rem!important;
+    height: 44px!important;
+}
+.firstPart{
+    display: flex;
+}
+.avatar{
+    padding-top: 7%;
+    padding-left: 4%;
+}
+.title {
+    padding-left: 5%;
+    width: 80%;
+    font-size: 180%;
+    font-family: 'Lato', sans-serif;
+}
+.search{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem!important;
+    width: 90%!important;
+    box-shadow: none!important;
+    border-radius: 28px!important;
+    text-transform: none!important;
+    color: black!important;
+    background-color: #F2F2F2 !important;
+    padding:2px!important;
+    font-family: 'Lato', sans-serif;
+    
+}
+.bod{
+    padding-left: 5%!important;
+    padding-top: 5%;
+}
+h1.title.second{
+    padding-top: 5%;
+}
+.amsterdam{
+    padding-top: 5%;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+.wholeContent{
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+    width: 100%;
+    height: 505px;
+    padding: 1em;
+}
