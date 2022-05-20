@@ -61,7 +61,7 @@ function LoginPage(props) {
           borderColor: "none",
           borderWidth: "none",
         }}
-          type="text"
+          type="password"
           name="password"
           onChange={passwordChangeHandler}
         ></input>

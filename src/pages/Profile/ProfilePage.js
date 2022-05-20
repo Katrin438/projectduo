@@ -40,8 +40,7 @@ function ProfilePage() {
           }}
         />
         {/* <p className="name">Martin Ivanov</p> */}
-        <p className="name">{loggedInUser.firstName}</p>
-
+        <p className="name">{loggedInUser.firstName} {loggedInUser.lastName}</p>
         <p className="location">
           <LocationOnIcon />
           Eindhoven

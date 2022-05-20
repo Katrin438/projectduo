@@ -7,13 +7,19 @@ import { Button } from "@mui/material";
 import Home from "./pages/Home/Home";
 import MenuComponent from "./components/Menu/MenuComponent";
 import { userData } from "./components/UserDataComponent";
-import React, { useState, useContext } from "react";
-
+import React, { useState, useContext,useEffect } from "react";
+import OneSignal from 'react-onesignal';
 export const MyContext = React.createContext();
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loggedInUser, setLoggedInUser] = useState({});
+
+  useEffect(() => {
+    OneSignal.init({
+      appId: "a021694b-b9ca-44c5-a802-a8f8f0767042",
+    });
+  }, []);
 
   const checkUser = (username, password) => {
     const users = [...userData.users];

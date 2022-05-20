@@ -2,10 +2,10 @@ export const userData = {
   users: [
     {
       id: 1,
-      username: "user1",
-      password: "user1",
-      firstName: "First Name",
-      lastName: "Last Name",
+      username: "Martin",
+      password: "1234",
+      firstName: "Martin",
+      lastName: "Ivanov",
     },
     {
       id: 2,
